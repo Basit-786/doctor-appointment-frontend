@@ -32,7 +32,7 @@ const faqs = [
 
 const Why = () => {
   return (
-    <div>
+    <div id="about">
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-10">
         <div className="lg:py-16">
           <h2 className="text-3xl font-bold sm:text-4xl">
@@ -64,7 +64,7 @@ const Why = () => {
           <h2 className="text-3xl font-bold sm:text-4xl mb-6">
             Common <span className="text-primary"> Conditions </span>{" "}
           </h2>
-          <div className="grid grid-cols-1 gap-2 lg:grid-cols-2 lg:gap-4  ">
+          <div className="grid grid-cols-1 gap-1 lg:grid-cols-2 lg:gap-4  ">
             {faqs.map((faq, index) => (
               <div
                 // variants={slideInFromBottom(index / 6, 60)}

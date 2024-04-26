@@ -12,7 +12,7 @@ const Hero = () => {
             <Image
               alt=""
               src="/wam.png"
-              className="h-full max-h-[440px] max-w-[440px] w-full object-cover"
+              className="lg:h-[440px] h-[300px] w-[250px] lg:w-[440px]  object-cover"
               width={500}
               height={500}
             />
@@ -41,7 +41,7 @@ const Hero = () => {
             </p>
 
             <Button>Explore More</Button>
-            <BookAppintment />
+            {/* <BookAppintment /> */}
           </div>
         </div>
       </div>

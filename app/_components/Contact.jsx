@@ -8,7 +8,7 @@ import { MapPin, Phone } from 'lucide-react';
 
 const Contact = () => {
   return (
-    <section className="">
+    <section className="" id="contact">
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold sm:text-4xl">
@@ -23,10 +23,6 @@ const Contact = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-[800px] mx-auto mt-8">
           
           <div
-            // variants={slideInFromBottom(0.2, 60)}
-            // initial="hidden"
-            // whileInView={"visible"}
-            // viewport={onceTrue}
             className="h-auto text-center flex items-center justify-center flex-col hover:bg-[#0da6ff] hover:scale-105 rounded-md px-8 py-6 group cursor-pointer shadow-how transition ease-in-out"
           >
             <Phone  className="w-12 h-12 text-primary group-hover:text-[#dcecff]" />

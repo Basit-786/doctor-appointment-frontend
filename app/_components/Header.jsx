@@ -27,11 +27,11 @@ const Header = () => {
     },
     {
       name: "About",
-      path: "/about",
+      path: "#about",
     },
     {
       name: "Contact",
-      path: "/contact",
+      path: "#contact",
     },
   ];
   return (
@@ -74,9 +74,9 @@ const Header = () => {
           </PopoverContent>
         </Popover>
       ) : (
-        <LoginLink>
+        // <LoginLink>
           <Button>Get Started</Button>
-        </LoginLink>
+        // </LoginLink>
       )}
     </div>
   );

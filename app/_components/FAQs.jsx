@@ -45,10 +45,6 @@ const FAQs = () => {
         <div className="grid grid-cols-1 mt-5">
           {faqs.map((faq, index) => (
             <div
-              // variants={slideInFromBottom(index / 6, 60)}
-              // initial="hidden"
-              // whileInView={"visible"}
-              // viewport={onceTrue}
               className="w-full h-full flex items-center justify-center max-w-[750px] mx-auto"
               key={index}
             >
