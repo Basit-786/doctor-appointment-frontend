@@ -64,7 +64,7 @@ const Why = () => {
           <h2 className="text-3xl font-bold sm:text-4xl mb-6">
             Common <span className="text-primary"> Conditions </span>{" "}
           </h2>
-          <div className="grid grid-cols-1 gap-1 lg:grid-cols-2 lg:gap-4  ">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 ">
             {faqs.map((faq, index) => (
               <div
                 // variants={slideInFromBottom(index / 6, 60)}

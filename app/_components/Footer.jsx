@@ -20,10 +20,10 @@ const Footer = () => {
             <Link href="/">About</Link>
           </li>
           <li className="hover:text-primary hover:scale-105 transition-all ease-in-out cursor-pointer">
-            <Link href="/">Contact</Link>
+            <Link href="#contact">Contact</Link>
           </li>
           <li className="hover:text-primary hover:scale-105 transition-all ease-in-out cursor-pointer">
-            <Link href="/">Doctors</Link>
+            <Link href="/">Terms of Services</Link>
           </li>
           <li className="hover:text-primary hover:scale-105 transition-all ease-in-out cursor-pointer">
             <Link href="/">Policies</Link>

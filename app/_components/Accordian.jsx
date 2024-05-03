@@ -5,7 +5,7 @@ const Accordion = ({ title, answer }) => {
   const [accordionOpen, setAccordionOpen] = useState(false);
 
   return (
-    <div className="py-2 max-w-[800px] w-full">
+    <div className="max-w-[800px] w-full">
       <button
         onClick={() => setAccordionOpen(!accordionOpen)}
         className={`flex justify-between items-center border text-left transition-all duration-200 ease-in-out w-full h-full text-lg lg:text-xl font-[700] lg:px-6 px-4 py-3 hover:text-primary lg:py-4 rounded-[2px] ${
@@ -42,7 +42,7 @@ const Accordion = ({ title, answer }) => {
       <div
         className={`grid overflow-hidden transition-all duration-300 ease-in-out lg:px-4 px-2 text-gray-600 leading-[30px] text-[16px] lg:text-[20px] ${
           accordionOpen
-            ? "grid-rows-[1fr] opacity-100 mt-3 lg:mt-4"
+            ? "grid-rows-[1fr] opacity-100 mt-2 lg:mt-3"
             : "grid-rows-[0fr] opacity-0"
         }`}
       >
