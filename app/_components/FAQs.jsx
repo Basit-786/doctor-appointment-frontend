@@ -3,30 +3,25 @@ import Accordion from "./Accordian";
 
 const faqs = [
   {
-    title: "Anxiety",
+    title: "Ile kosztuje wizyta?",
     answer:
-      "1 in 10 Canadians are affected by an anxiety disorder. These diseases can impact emotions, behaviour and physical health and are characterized by feeling intense periods of fear or distress. Typical symptoms include inability to sleep, poor concentration, fear and physical responses such as sweating and increased heart rate.",
+      "Koszt wizyty wynosi 200 zł.",
   },
   {
-    title: "Depression",
+    title: "Ile trzeba czekać w kolejce?",
     answer:
-      "In Canada, research shows that 16% of women and 11% of men experience depression at some point in their lives. Some signs of depression are decreased energy or fatigue, feelings of worthlessness, weight changes, lack of interest in activities typically enjoyed and difficulty focusing.",
+      "Czas oczekiwania w kolejce zależy od liczby pacjentów, poniżej gabinetu znajduje się kawiarnia w której można umilić sobie czas oczekiwania, w gabinecie również znajduje się toaleta.",
   },
   {
-    title: "Eating disorders",
+    title: "Gdzie znajduje się gabinet?",
     answer:
-      "Impacting approximately 1 million people in Canada, eating disorders cause an unhealthy relationship with food. Symptoms include weight loss, obsessive behaviour with calorie intake and experiencing shameful feelings towards eating.",
+      "Gabinet znajduje się w samym sercu Nowego Targu, na ulicy Szkolnej 2. Idąc od rynku w stronę lodowiska, znajdziesz nas po prawej stronie na pierwszym piętrze.",
   },
   {
-    title: "Obsessive Compulsive Disorders (OCD)",
+    title: "Ile trzeba czekać na wizytę domową?",
     answer:
-      "OCD affects 2% of Canadians by causing uncontrollable repetitive behaviours or compulsions that cause distress. Some examples of these impulses include repeatedly counting objects or double-checking things, frequent hand washing or collecting items. These compulsions are deemed as the only way to cope with the obsessive thoughts.",
-  },
-  {
-    title: "Post-Traumatic Stress Disorder (PTSD)",
-    answer:
-      "Caused by a traumatic event which triggers symptoms such as distressing memories, flashbacks of the event, 8% of Canadian individuals suffer with PTSD. It can hinder the ability to complete normal daily functioning and cause relationship, work and social problems.",
-  },
+      "Czas oczekiwania na wizytę domową zależy od dostępności, ale staramy się realizować wizyty jak najszybciej.",
+  }
 ];
 
 const FAQs = () => {
@@ -38,7 +33,7 @@ const FAQs = () => {
             FAQs
           </h2>
           <h1 className="text-3xl font-bold sm:text-4xl">
-            Have a <span className="text-primary">Question?</span>
+          Często zadawane <span className="text-primary">pytania?</span>
           </h1>
         </div>
 

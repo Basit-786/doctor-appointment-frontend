@@ -30,7 +30,7 @@ const Footer = () => {
           </li>
         </ul>
 
-        <ul className="mt-12 flex justify-center gap-6 md:gap-8">
+        {/* <ul className="mt-12 flex justify-center gap-6 md:gap-8">
           <li className="hover:text-primary hover:scale-110 text-gray-700">
             <a
               href="#"
@@ -141,7 +141,7 @@ const Footer = () => {
               </svg>
             </a>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </footer>
   );

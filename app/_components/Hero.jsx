@@ -20,8 +20,10 @@ const Hero = () => {
 
           <div className="lg:py-24">
             <h2 className="text-3xl font-bold sm:text-4xl">
-              Doktor <span className="text-primary"> Michał Gałecki</span> Twoja
-              Droga do Lepszego Jutra
+              Doktor
+              <span className="text-primary"> Michał Gałecki </span> <br />{" "}
+              Twoja Droga
+              <br /> do Lepszego Jutra
             </h2>
 
             <p className="my-4 text-gray-600">
@@ -40,7 +42,7 @@ const Hero = () => {
               zrozumienie.
             </p>
 
-            <Button>Explore More</Button>
+            {/* <Button>Explore More</Button> */}
             {/* <BookAppintment /> */}
           </div>
         </div>

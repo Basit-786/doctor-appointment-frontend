@@ -4,29 +4,29 @@ import { Button } from "@/components/ui/button";
 
 const faqs = [
   {
-    title: "Anxiety",
+    title: "Depresja",
     answer:
-      "1 in 10 Canadians are affected by an anxiety disorder. These diseases can impact emotions, behaviour and physical health and are characterized by feeling intense periods of fear or distress. Typical symptoms include inability to sleep, poor concentration, fear and physical responses such as sweating and increased heart rate.",
+      "Depresja to przewlekłe zaburzenie nastroju charakteryzujące się uczuciem głębokiego smutku, braku energii i zainteresowania codziennymi aktywnościami. Objawy mogą obejmować również zmiany apetytu, zaburzenia snu, trudności w koncentracji oraz myśli samobójcze. Leczenie zazwyczaj obejmuje terapię psychologiczną i farmakoterapię.",
   },
   {
-    title: "Depression",
+    title: "Zaburzenia lękowe",
     answer:
-      "In Canada, research shows that 16% of women and 11% of men experience depression at some point in their lives. Some signs of depression are decreased energy or fatigue, feelings of worthlessness, weight changes, lack of interest in activities typically enjoyed and difficulty focusing.",
+      "Zaburzenia lękowe to grupa zaburzeń psychicznych, które charakteryzują się nadmiernym, nieustającym lękiem i obawami. Do najczęstszych należą zaburzenia lęku uogólnionego (GAD), fobie specyficzne, lęk społeczny oraz zaburzenia paniki. Leczenie obejmuje terapię poznawczo-behawioralną oraz leki przeciwlękowe.",
   },
   {
-    title: "Eating disorders",
+    title: "Zaburzenia afektywne dwubiegunowe",
     answer:
-      "Impacting approximately 1 million people in Canada, eating disorders cause an unhealthy relationship with food. Symptoms include weight loss, obsessive behaviour with calorie intake and experiencing shameful feelings towards eating.",
+      "Zaburzenia afektywne dwubiegunowe (choroba dwubiegunowa) to schorzenie charakteryzujące się epizodami manii i depresji. Epizody manii obejmują podwyższony nastrój, nadmierną energię, impulsywność, a epizody depresji są podobne do objawów depresji. Leczenie obejmuje stabilizatory nastroju, leki przeciwdepresyjne oraz psychoterapię.",
   },
   {
-    title: "Obsessive Compulsive Disorders (OCD)",
+    title: "Schizofrenia",
     answer:
-      "OCD affects 2% of Canadians by causing uncontrollable repetitive behaviours or compulsions that cause distress. Some examples of these impulses include repeatedly counting objects or double-checking things, frequent hand washing or collecting items. These compulsions are deemed as the only way to cope with the obsessive thoughts.",
+      "Schizofrenia to poważne zaburzenie psychiczne, które wpływa na myślenie, emocje i zachowanie. Objawy mogą obejmować halucynacje, urojenia, dezorganizowane myślenie oraz zaburzenia funkcjonowania społecznego. Leczenie opiera się głównie na farmakoterapii (leki przeciwpsychotyczne) oraz terapii psychospołecznej.",
   },
   {
-    title: "Post-Traumatic Stress Disorder (PTSD)",
+    title: "Zaburzenia obsesyjno-kompulsywne (OCD)",
     answer:
-      "Caused by a traumatic event which triggers symptoms such as distressing memories, flashbacks of the event, 8% of Canadian individuals suffer with PTSD. It can hinder the ability to complete normal daily functioning and cause relationship, work and social problems.",
+      "OCD to zaburzenie charakteryzujące się nawracającymi, niechcianymi myślami (obsesjami) oraz powtarzającymi się czynnościami (kompulsjami), które osoba czuje się zmuszona wykonywać, aby złagodzić lęk. Leczenie obejmuje terapię poznawczo-behawioralną oraz leki przeciwdepresyjne, takie jak selektywne inhibitory zwrotnego wychwytu serotoniny (SSRI).",
   },
 ];
 
@@ -36,28 +36,94 @@ const Why = () => {
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-10">
         <div className="lg:py-16">
           <h2 className="text-3xl font-bold sm:text-4xl">
-            Why see an <span className="text-primary"> psychiatrist? </span>{" "}
+            Dlaczego warto odwiedzić{" "}
+            <span className="text-primary"> psychiatrę? </span>{" "}
           </h2>
 
           <p className="my-4 text-gray-600 text-lg">
-            Statistics show that approximately 50% of Canadians have suffered
-            from mental illness by the time they reach 40, but successful mental
-            health treatment can help to minimize the impact this has on an
-            individual’s life.
-            <br />
-            <br />
-            Psychiatrists are doctors specializing in mental health. They treat
-            mental, emotional, and behavioural disorders through therapy and
-            prescribing medication. Since they are covered by most provincial
-            health insurance, you need a doctor’s referral to visit one.
-            <br />
-            <br />
-            Other mental health specialists include counsellors, social workers,
-            and psychotherapists. If you’re struggling to find time for an
-            appointment, aren’t wanting to physically travel, or face a long
-            wait in person, then online therapy can be a good place to start.
-            You can get affordable, licensed, online therapy through Focus
-            Mental Wellness, and it’s covered by most extended benefits.
+            W dzisiejszych czasach zdrowie psychiczne jest równie ważne jak
+            zdrowie fizyczne. Wiele osób zmaga się z różnymi problemami
+            emocjonalnymi i psychicznymi, które mogą znacząco wpływać na jakość
+            życia. Wizyta u psychiatry to krok w stronę lepszego samopoczucia i
+            zdrowia psychicznego.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="flex flex-col gap-2 md:border-r px-3">
+              <h3 className="text-2xl font-semibold">
+                1. Profesjonalna diagnoza
+              </h3>
+              <p className="text-gray-600 text-lg">
+                Psychiatra jest lekarzem specjalistą, który posiada wiedzę i
+                doświadczenie niezbędne do rozpoznawania i leczenia różnorodnych
+                zaburzeń psychicznych. Dzięki odpowiedniej diagnozie możliwe
+                jest ustalenie przyczyny problemów oraz wdrożenie skutecznego
+                leczenia.
+              </p>
+            </div>
+            <div className="flex flex-col gap-2 px-3">
+              <h3 className="text-2xl font-semibold">2. Skuteczne leczenie</h3>
+              <p className="text-gray-600 text-lg">
+                Psychiatrzy mogą przepisywać leki, które pomagają w stabilizacji
+                nastroju, redukcji objawów depresji, lęków czy innych zaburzeń
+                psychicznych. Odpowiednio dobrana farmakoterapia może znacząco
+                poprawić jakość życia pacjenta.
+              </p>
+            </div>
+            <div className="flex flex-col gap-2 md:border-r px-3">
+              <h3 className="text-2xl font-semibold">3. Terapia i wsparcie</h3>
+              <p className="text-gray-600 text-lg">
+                Oprócz leczenia farmakologicznego, psychiatrzy oferują również
+                różnorodne formy terapii, takie jak terapia
+                poznawczo-behawioralna, terapia psychodynamiczna czy terapia
+                interpersonalna. Regularne sesje terapeutyczne pomagają w
+                lepszym zrozumieniu siebie, swoich emocji oraz radzeniu sobie z
+                trudnościami życiowymi.
+              </p>
+            </div>
+            <div className="flex flex-col gap-2 px-3">
+              <h3 className="text-2xl font-semibold">
+                4. Poprawa jakości życia
+              </h3>
+              <p className="text-gray-600 text-lg">
+                Zdrowie psychiczne ma ogromny wpływ na nasze codzienne
+                funkcjonowanie. Depresja, lęki, zaburzenia snu czy problemy z
+                koncentracją mogą znacząco obniżyć jakość życia. Dzięki pomocy
+                psychiatry możliwe jest odzyskanie równowagi psychicznej i
+                cieszenie się pełnią życia.
+              </p>
+            </div>
+            <div className="flex flex-col gap-2 md:border-r px-3">
+              <h3 className="text-2xl font-semibold">
+                5. Zapobieganie nawrotom
+              </h3>
+              <p className="text-gray-600 text-lg">
+                Regularne wizyty u psychiatry pozwalają na monitorowanie
+                postępów w leczeniu oraz wczesne wykrywanie ewentualnych
+                nawrotów choroby. Dzięki temu możliwe jest szybkie reagowanie i
+                zapobieganie pogorszeniu się stanu zdrowia psychicznego.
+              </p>
+            </div>
+            <div className="flex flex-col gap-2 px-3">
+              <h3 className="text-2xl font-semibold">6. Wszechstronna pomoc</h3>
+              <p className="text-gray-600 text-lg">
+                Psychiatrzy współpracują z innymi specjalistami, takimi jak
+                psycholodzy, terapeuci zajęciowi czy pracownicy socjalni, aby
+                zapewnić kompleksową pomoc pacjentowi. Dzięki temu leczenie jest
+                bardziej efektywne i dostosowane do indywidualnych potrzeb.
+              </p>
+            </div>
+          </div>
+          <h2 className="text-3xl font-bold sm:text-4xl mt-5">
+            Nie zwlekaj - zadbaj o swoje zdrowie psychiczne
+          </h2>
+
+          <p className="my-4 text-gray-600 text-lg">
+            Jeżeli odczuwasz trudności emocjonalne, zmiany nastroju, problemy z
+            koncentracją czy inne objawy, które utrudniają Ci codzienne
+            funkcjonowanie, nie wahaj się skorzystać z pomocy psychiatry. Wizyta
+            u specjalisty to krok w stronę lepszego samopoczucia i zdrowia
+            psychicznego. Pamiętaj, że zdrowie psychiczne jest fundamentem
+            szczęśliwego i satysfakcjonującego życia.
           </p>
         </div>
         <div className="lg:py-6 flex items-center justify-center flex-col ">
