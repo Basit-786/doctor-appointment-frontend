@@ -61,10 +61,10 @@ const HowWorks = () => {
             </div>
           </div>
         </div>
-
+{/* 
         <div className="mt-12 text-center">
           <Button>Get Started</Button>
-        </div>
+        </div> */}
       </div>
     </section>
   );

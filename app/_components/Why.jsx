@@ -144,9 +144,9 @@ const Why = () => {
               </div>
             ))}
           </div>
-          <div className="my-4">
+          {/* <div className="my-4">
             <Button>Book Now</Button>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

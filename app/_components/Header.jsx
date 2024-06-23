@@ -37,7 +37,15 @@ const Header = () => {
   return (
     <div className="flex items-center justify-between p-4 border-b border-gray-100">
       <div className="flex items-center justify-between w-full gap-10">
-        <Image src={"/logo.svg"} alt="" width={200} height={80} className="" />
+        <Link href={"/"}>
+          <Image
+            src={"/logo.svg"}
+            alt=""
+            width={180}
+            height={70}
+            className=""
+          />
+        </Link>
         <ul className="hidden md:flex gap-8">
           {menu.map((item, index) => (
             <Link href={item.path} key={index}>
@@ -78,8 +86,7 @@ const Header = () => {
           <Button>Get Started</Button>
         </LoginLink>
       )} */}
-          {/* <Button>Get Started</Button> */}
-
+      {/* <Button>Get Started</Button> */}
     </div>
   );
 };
