@@ -11,12 +11,6 @@ const Contact = () => {
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold sm:text-4xl">Kontakt</h2>
-
-          <p className="mt-4 ">
-            Nasza wirtualna klinika została zaprojektowana tak, aby zapewnić Ci
-            bezpieczny, godny zaufania i łatwy dostęp do porad i opieki, której
-            potrzebujesz, kiedy jej potrzebujesz.
-          </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-[1200px] mx-auto mt-8">
           <div className="h-auto text-center flex items-center justify-center flex-col hover:bg-[#0da6ff] hover:scale-105 rounded-md px-8 py-6 group cursor-pointer shadow-how transition ease-in-out">
@@ -71,30 +65,30 @@ const Contact = () => {
               ulica Szkolna 2, <br /> 34-400 Nowy Targ
             </p>
             <div className="flex gap-4 items-center justify-center">
-              <a href="#">
+              <a href="https://maps.apple.com/?address=Szkolna%202,%2034-400%20Nowy%20Targ,%20Poland&ll=49.482500,20.029300&q=Szkolna%202&t=h" target="_blank">
                 <Image
                   width={100}
                   height={100}
                   src="/amap.png"
-                  alt=""
+                  alt="Apple Maps Icon"
                   className="w-[50px] h-[65px] object-cover"
                 />
               </a>
-              <a href="#">
+              <a href="https://www.google.com/maps/place/Szkolna+2,+34-400+Nowy+Targ,+Poland/@49.4825963,20.0293376,17z/data=!4m6!3m5!1s0x4715e4ec470ee6c3:0x5edf21ad7eb8dc39!8m2!3d49.4825963!4d20.0293376!16s%2Fg%2F11csnwytd_" target="_blank">
                 <Image
                   width={100}
                   height={100}
                   src="/gmap.png"
-                  alt=""
+                  alt="Google Maps Icon"
                   className="w-[50px] h-[50px] object-cover"
                 />
               </a>
             </div>
           </div>
         </div>
-        <div className="mt-12 text-center">
+        {/* <div className="mt-12 text-center">
           <Button>Get Started</Button>
-        </div>
+        </div> */}
       </div>
     </section>
   );

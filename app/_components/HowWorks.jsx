@@ -3,18 +3,12 @@ import React from "react";
 
 const HowWorks = () => {
   return (
-    <section className="">
+    <section className="mt-20">
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold sm:text-4xl">
             Jak umówić się na wizytę?
           </h2>
-
-          <p className="mt-4 ">
-            Nasza wirtualna klinika została zaprojektowana tak, aby zapewnić Ci
-            bezpieczny, godny zaufania i łatwy dostęp do porad i opieki, której
-            potrzebujesz, kiedy jej potrzebujesz.
-          </p>
         </div>
 
         <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">

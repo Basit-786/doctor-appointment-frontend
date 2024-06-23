@@ -128,7 +128,7 @@ const Why = () => {
         </div>
         <div className="lg:py-6 flex items-center justify-center flex-col ">
           <h2 className="text-3xl font-bold sm:text-4xl mb-6">
-            Common <span className="text-primary"> Conditions </span>{" "}
+          Częste<span className="text-primary"> Schorzenia </span>{" "}
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 ">
             {faqs.map((faq, index) => (

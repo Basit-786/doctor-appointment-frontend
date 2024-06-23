@@ -36,7 +36,7 @@ const Header = () => {
   ];
   return (
     <div className="flex items-center justify-between p-4 border-b border-gray-100">
-      <div className="flex items-center gap-10">
+      <div className="flex items-center justify-between w-full gap-10">
         <Image src={"/logo.svg"} alt="" width={200} height={80} className="" />
         <ul className="hidden md:flex gap-8">
           {menu.map((item, index) => (
@@ -48,7 +48,7 @@ const Header = () => {
           ))}
         </ul>
       </div>
-      {user ? (
+      {/* {user ? (
         <Popover>
           <PopoverTrigger>
             <Image
@@ -61,9 +61,9 @@ const Header = () => {
           </PopoverTrigger>
           <PopoverContent className="w-44">
             <ul className="flex flex-col gap-2">
-              {/* <li className="cursor-pointer rounded-md hover:bg-slate-100 p-2 px-4">
+              <li className="cursor-pointer rounded-md hover:bg-slate-100 p-2 px-4">
                 Profile
-              </li> */}
+              </li>
               <Link href={'/my-booking'} className="cursor-pointer rounded-md hover:bg-slate-100 p-2 px-4">
                 My Booking
               </Link>
@@ -74,10 +74,12 @@ const Header = () => {
           </PopoverContent>
         </Popover>
       ) : (
-        // <LoginLink>
+        <LoginLink>
           <Button>Get Started</Button>
-        // </LoginLink>
-      )}
+        </LoginLink>
+      )} */}
+          {/* <Button>Get Started</Button> */}
+
     </div>
   );
 };
