@@ -54,7 +54,7 @@ const Header = () => {
           </ul>
           <Link href={"#contact"} className="">
             {" "}
-            <Button>Contact</Button>
+            <Button>Kontact</Button>
           </Link>
         </div>
       </div>
