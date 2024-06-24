@@ -29,10 +29,6 @@ const Header = () => {
       name: "About",
       path: "#about",
     },
-    {
-      name: "Contact",
-      path: "#contact",
-    },
   ];
   return (
     <div className="flex items-center justify-between p-4 border-b border-gray-100">
@@ -46,15 +42,21 @@ const Header = () => {
             className=""
           />
         </Link>
-        <ul className="hidden md:flex gap-8">
-          {menu.map((item, index) => (
-            <Link href={item.path} key={index}>
-              <li className="hover:text-primary hover:scale-105 transition-all ease-in-out cursor-pointer">
-                {item.name}
-              </li>
-            </Link>
-          ))}
-        </ul>
+        <div className="flex items-center gap-8">
+          <ul className="hidden md:flex gap-8">
+            {menu.map((item, index) => (
+              <Link href={item.path} key={index}>
+                <li className="hover:text-primary hover:scale-105 transition-all ease-in-out cursor-pointer">
+                  {item.name}
+                </li>
+              </Link>
+            ))}
+          </ul>
+          <Link href={"#contact"} className="">
+            {" "}
+            <Button>Contact</Button>
+          </Link>
+        </div>
       </div>
       {/* {user ? (
         <Popover>

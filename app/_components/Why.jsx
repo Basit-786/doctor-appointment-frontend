@@ -126,27 +126,17 @@ const Why = () => {
             szczęśliwego i satysfakcjonującego życia.
           </p>
         </div>
-        <div className="lg:py-6 flex items-center justify-center flex-col ">
+        <div className="lg:py-6 flex items-center justify-center flex-col my-16">
           <h2 className="text-3xl font-bold sm:text-4xl mb-6">
-          Częste<span className="text-primary"> Schorzenia </span>{" "}
+            Częste<span className="text-primary"> Schorzenia </span>{" "}
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 ">
             {faqs.map((faq, index) => (
-              <div
-                // variants={slideInFromBottom(index / 6, 60)}
-                // initial="hidden"
-                // whileInView={"visible"}
-                // viewport={onceTrue}
-                className="w-full h-full"
-                key={index}
-              >
+              <div className="w-full h-full" key={index}>
                 <Accordion title={faq.title} answer={faq.answer} />
               </div>
             ))}
           </div>
-          {/* <div className="my-4">
-            <Button>Book Now</Button>
-          </div> */}
         </div>
       </div>
     </div>
